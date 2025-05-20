@@ -23,10 +23,10 @@ def main():
                 ) # The result of the codes calculations
                 break  #  Exit the loop after  calculation
             else:
-                print("Error: Side length must be a between 0 and 1000 cm!!!") 
+                print("Error: Side length must be a between 0 and 1000 cm!!!")  # Users input MUST be between 0 - 1000 cm
 
         except ValueError:
-            print("Invalid input. Please enter a positive number between 0 and 1000.")
+            print("Invalid input. Please enter a positive number between 0 and 1000.") # Users input MUST be between 0 - 1000 cm
 
 
 # Run the program
